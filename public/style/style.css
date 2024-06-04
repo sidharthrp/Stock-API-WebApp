@@ -1,0 +1,76 @@
+/* html{
+    background-image: url("../images/download.jpeg");
+} */
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+body {
+    background: url("../images/download.jpeg");
+    background-blend-mode: lighten;
+    
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+  }
+h1 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+h2 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+h3{ 
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+h5{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+#positive{
+    color: green;
+}
+#negative{
+    color: red;
+}
+.card {
+    background: #212534;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 600px;
+    padding: 3px;
+    position: relative;
+    border-radius: 25px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.dropdown{
+    color: white;
+    width: 200px;
+    background-color: #212534;
+    border-color: white;
+}
+
+input{
+    color: white;
+    background-color: #212534;
+    border-color: white;
+}
